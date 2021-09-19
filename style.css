@@ -1,0 +1,415 @@
+/*
+Ex:/*
+Theme Name: Bella Olonje - Food App
+Author: Mariana Garcia
+Description: Tema customizado para a Bella Olonje
+Version: 1.0.0
+Tags: comida, aplicativo, food
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+html, body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family:'Montserrat', sans-serif;
+    color:#252B42;
+    text-align: center;
+}
+
+body, html { overflow-x:hidden; }
+
+.fz-16-white {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.fz-40-black {
+    color: #000;
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700;
+}
+
+.fz-40-white {
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700;
+}
+
+.fz-44-black {
+    font-family: Poppins!important;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.fz-58-white {
+    color: #FFFFFF!important;
+    font-family: Poppins!important;
+    font-size: 58px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.mb-80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.mb-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mg-125 {
+    margin-right: 125px;
+}
+
+.mg-25 {
+    margin-right: 25px;
+}
+
+.mleft-120 {
+    margin-left: 120px;
+}
+
+.pleft-50 {
+    padding-left: 50px;
+}
+
+.pd-top-150 {
+    padding-top: 150px;
+}
+
+.pd-top-30 {
+    padding-top: 30px;
+}
+
+.pd-bottom-150 {
+    padding-bottom: 150px;
+}
+
+.pd-bottom-50 {
+    padding-bottom: 50px;
+}
+
+h2 {
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    }
+
+h3 {
+    color:#F6F6F6;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+h4 {
+    color: #F6F6F6;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.logo img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    color:#252B42;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 30px;
+}
+
+.navbar-nav a:hover {
+    color: #FA4A0C!important;
+}
+
+.navbar-brand {
+    max-width: 150px;
+    margin-left: -50px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+.nav-item {
+    padding-left: 60px;
+}
+
+.bg-light {
+    background-color: #FFFFFF!important;
+}
+
+.btn-primary {
+    background-color: #17101099;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 236px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    z-index: 999;
+    position: relative;
+}
+
+.btn-primary:hover {
+    background-color: #FA4A0C!important;
+    border: none;
+}
+
+.btn-slide {
+    width: 200px;
+}
+
+#top-banner, #bottom-banner {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bottom-banner figure {
+    min-height: 516px;
+    position: absolute;
+    width: 100%;
+}
+
+#bottom-banner img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.food-for {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -260px;
+}
+
+.food-for img {
+    height: 800px;
+    width: auto;
+}
+
+hr {
+    position: relative;
+    width: 60%;
+    border: 1px solid #E4E4E4;
+}
+
+.posts img {
+    margin: 0 auto;
+    width: auto;
+    height: 750px;
+    margin-top: -50px;
+    padding-left: 60px;
+}
+
+.pre-content {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top: 180px;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.title {
+    text-align: left;
+    margin-top: -10px;
+}
+
+.content {
+    color:#737373!important;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+#nav-footer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+
+footer i { 
+    color: #FA4A0C;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pfooter {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #5C5C5C;
+}
+.pfooter-2 {
+    font-family: Roboto!important;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .navbar-toggler {
+        margin-left: 50px;
+    }
+    .navbar-brand {
+        max-width: 150px;
+        margin-left: 5px;
+    }
+    .fz-16-gray {
+        color:#737373;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+    }
+    .fz-36-blue {
+        color: #252B42!important;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+        text-align: center;
+    }
+    .fz-24-gray {
+        color: #737373;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+        text-align: center;
+    }
+    .fz-24-black {
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+    }
+    .btn-primary, .btn-primary-2 {
+        background-color: #FFFFFF;
+        border: 1px solid  #FA4A0C;
+        color: #FA4A0C;
+        width: 236px;
+        height: 60px;
+        margin-top: 20px;
+        border-radius: 30px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        z-index: 999;
+        position: relative;
+    }
+    .btn-primary:hover, .btn-primary-2:hover {
+        background-color: #FA4A0C!important;
+        color: #FFFFFF;
+        border: none!important;
+    }
+    .btn-primary-2 {
+        background-color: #252B42!important;
+        border: 1px solid  #FFFFFF;
+        color: #FFFFFF;
+    }
+    #top-banner, #bottom-banner {
+        background-image: none!important;
+    }
+    #fright {
+        float: right;
+    }
+    .food-for {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: -150px;
+    }
+    .food-for img {
+        height: 550px;
+        width: 100%;
+        margin-left: -50px;
+    }
+    .pre-content, .title, .content {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .posts img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+        margin-bottom: 40px;
+    }
+
+    #bottom-banner img {
+        display: none;
+    }
+    #bottom-banner {
+        background-color: #252B42;
+    }
+    footer .navbar-brand {
+        display: none;
+    }
+    .mleft-50 {
+        margin-left: 50px;
+    }
+    .mleft50 {
+        margin-left: -50px;
+    }
+    .mt110 {
+        margin-top: -110px;
+    }
+    .mt200 {
+        margin-top: -200px;
+    }
+    
+    .mg-25 {
+        margin-right: 0; 
+    }
+    .mbottom-120 {
+        margin-bottom: 120px;
+    }
+    .pfooter {
+        margin-top: -50px!important;
+    }
+    .pfooter-2 {
+        font-family: Roboto!important;
+        margin-top: -60px;
+    }
+}
