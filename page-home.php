@@ -6,13 +6,13 @@
 ?>
 
 <?php
-include "header.php";
+get_header();
 $featured_img_url = get_the_post_thumbnail_url( $post->ID, 'full')
 ?>
 
 <!-- First section including txt -->
 <section>
-    <div id="top-banner" style="background-image: url('<?php echo $featured_img_url;?>');">
+    <div class="top-banner" style="background-image: url('<?php echo $featured_img_url;?>');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
@@ -35,7 +35,7 @@ $featured_img_url = get_the_post_thumbnail_url( $post->ID, 'full')
         <div class="row">
             <div class="col-lg-12 col-sm-12">
                 <div class="food-for">
-                     <img src="<?php echo get_template_directory_uri(); ?>/imagens/food-for.png" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/imagens/food-for.png" alt="food-for" width="" height="">
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@ $featured_img_url = get_the_post_thumbnail_url( $post->ID, 'full')
 </section><hr>
 <!-- end of section -->
 
-<!-- Faq- how the app works -->
+<!-- ow the app works -->
 <section class="posts" id="product">
     <h1 class="fz-44-black mb-80 fz-24-black">How the app works</h1>
     <div class="container">
@@ -134,18 +134,18 @@ $featured_img_url = get_the_post_thumbnail_url( $post->ID, 'full')
 
 <!-- Bottom banner -->
 <section id="faq">
-    <div id="bottom-banner">
+    <div class="bottom-banner">
     <?php
     $post = get_post(8);
     $content = $post->post_content;
     echo $content;?>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col">
                     <h1 class="fz-40-white pd-top-150">Download the app now.</h1>
                     <h4 class="pd-bottom-50">Available on your favorite store. Start your premium experience now</h4>
-                    <button class="btn btn-primary btn-primary-2 btn-slide mg-25">Playstore</button>
-                    <button class="btn btn-primary btn-primary-2 btn-slide mg-25">App store</button>
+                    <button class="btn btn-primary-2 btn-slide mg-25">Playstore</button>
+                    <button class="btn btn-primary-3 btn-slide mg-25">App store</button>
                     <div class="mbottom-120"></div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ $featured_img_url = get_the_post_thumbnail_url( $post->ID, 'full')
 <!-- end of section -->
 
 <?php
-include "footer.php";
+get_footer();
 ?>
 
 

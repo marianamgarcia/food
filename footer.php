@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img class="navbar-brand" id="nav-footer" src="<?php echo get_template_directory_uri(); ?>/imagens/logo.png"><img>
+                <img class="navbar-brand" class="nav-footer" src="<?php echo get_template_directory_uri(); ?>/imagens/logo.png"><img>
             </div>
             <div class="col-lg-4 pfooter">
                 <div class="mt120 mt110">
